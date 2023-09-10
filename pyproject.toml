@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scratch-deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["sansuke05"]
+readme = "README.md"
+packages = [{include = "scratch_deep_learning"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+numpy = "^1.23.4"
+matplotlib = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
